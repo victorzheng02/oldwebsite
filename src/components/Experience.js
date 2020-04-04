@@ -1,66 +1,59 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
-import HackathonFormat from "/hackathons";
-const headerStyle = {
+import HackathonFormat from "./props/HackathonFormat";
+const headerStyle = {   
     fontSize: "3vw",
-    color: "Black"
+    color: "Black",
+    paddingTop: "2%",
+    textAlign: "center"
 }
-const hackathonexperience = {
-    fontSize: "1.2vw",
-    color: "Black"
-}
-
 let Experience = () => {
     return(
         <Router>
         <div>
-            <div class = "experience">
-            <h1 style = {headerStyle}>Hackathons</h1>
-            <div class = "Hackathons"></div>
-            {/* <HackathonFormat /> */}
-            {/* <h2 class = "HackathonName"> FraserHacks </h2>
-            <h3> MeshForm </h3>
-            <a href="https://devpost.com/software/meshform">
-<img src={require("../images/Devpost.png")} alt="devpost" width = "5%" height = "5%"/>
-</a>
-<a href="https://devpost.com/software/meshform">
-<img src={require("../images/github-logo.png")} alt="github" width = "5%" height = "5%"/>
-</a>
-            <p style = {hackathonexperience}> Created an app for FRC scouting events. After entering scouting information on your phone, 
-            you can wirelessly transmit the data to other teammates using a QR code. Built using react native and javascript.
-            </p>
-         */}
-            <h2 class = "HackathonName"> Hack the North </h2>
-            <h3> AllerVision</h3>
-            <a href="https://devpost.com/software/allervision">
-<img src={require("../images/Devpost.png")} alt="devpost" width = "5%" height = "5%"/>
-</a>
-<a href="https://github.com/SmilestheSad/HTNFrontEnd">
-<img src={require("../images/github-logo.png")} alt="github" width = "5%" height = "5%"/>
-</a>
-<p style = {hackathonexperience}> Created an app that uses Google's Vision API to scan foods and detect potential allergies. Built using 
-react native, ajax, python, flask and edamam api.
-            </p>
-
-            <h2 class = "HackathonName"> Jam Hacks </h2>
-            <a href="https://devpost.com/software/thejamexpansion">
-<img src={require("../images/Devpost.png")} alt="devpost" width = "5%" height = "5%"/>
-</a>
-<a href="https://github.com/SmilestheSad/TheJamExpansion">
-<img src={require("../images/github-logo.png")} alt="github" width = "5%" height = "5%"/>
-</a>
-<p style = {hackathonexperience}> Created a dungeon crawler game with multiple levels using python and pygame.
-     </p>
-            <h2 class = "HackathonName"> WolfHacks </h2>
-            <a href="https://devpost.com/software/wolfhacks19">
-<img src={require("../images/Devpost.png")} alt="devpost" width = "5%" height = "5%"/>
-</a>
-<a href="https://github.com/SmilestheSad/wolfhacks19">
-<img src={require("../images/github-logo.png")} alt="github" width = "5%" height = "5%"/>
-</a>
-<p style = {hackathonexperience}> Messaging app with built to allow people who speak different languages to communicate with each other. use cases include: immigrants 
-Built using Google Translate API, Firebase, javascript, HTML and CSS.
-</p>
+        <div class = "experience">
+        <h1 style = {headerStyle}>Hackathons</h1>
+            <ul class = "flex-container">
+            <li class="flex-item">
+            <HackathonFormat 
+            HackathonName = "FraserHacks"
+            ProjectName = "MeshForm"
+            linktodev = "https://devpost.com/software/meshform"
+            linktogit = "https://github.com/SmilestheSad/MeshForm"
+            hackathontext = "Created an app for FRC scouting events. After entering scouting information on your phone, 
+            you can wirelessly transmit the data to other teammates using a QR code. Built using react native and javascript."
+                />
+            </li>
+            <li class="flex-item">
+            <HackathonFormat 
+            HackathonName = "HacktheNorth"
+            ProjectName = "AllerVision"
+            linktodev = "https://devpost.com/software/allervision"
+            linktogit = "https://github.com/SmilestheSad/HTNFrontEnd"
+            hackathontext = "Created an app that uses Google's Vision API to scan foods and detect potential allergies. 
+            Built using react native, ajax, python, flask and edamam api."
+                />
+            </li>
+            <li class="flex-item">
+            <HackathonFormat 
+            HackathonName = "JamHacks"
+            ProjectName = "The Jam Expansion"
+            linktodev = "https://devpost.com/software/thejamexpansion"
+            linktogit = "https://github.com/SmilestheSad/TheJamExpansion"
+            hackathontext = "Created a dungeon crawler game with multiple levels using python and pygame."
+                />
+            </li>
+            <li class="flex-item">
+            <HackathonFormat 
+            HackathonName = "WolfHacks"
+            ProjectName = "Globlate"
+            linktodev = "https://devpost.com/software/wolfhacks19"
+            linktogit = "https://github.com/SmilestheSad/wolfhacks19"
+            hackathontext = "Messaging app with built to allow people who speak different languages to communicate with each other. 
+            Built using Google Translate API, Firebase, javascript, HTML and CSS."
+                />
+            </li>
+            </ul>
             <h1 style = {headerStyle}> Work Experience </h1>
             <h2> conversationHEALTH</h2>
             <a href="https://www.conversationhealth.com/">

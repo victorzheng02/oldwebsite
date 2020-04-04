@@ -6,7 +6,7 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-<p> fsdfsdfsdfsdfsdfs</p>
+      <p> fsdfsdfsdfsdfsdfs</p>
    </section>
     );
   }

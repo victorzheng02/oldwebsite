@@ -1,10 +1,18 @@
 .body {
+    height: 100%;
+    width:100;
 }
-h2{
-    color:red
+.HackathonName h2{
+    color:black;
+    font-size: 2vw; 
 }
-h3{
-    color:red
+.HackathonName h3{
+    color:black;
+    font-size: 2vw;
+}
+.HackathonFormat{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 .experience{
     background-color: rgba(256,256,256,0.7);
@@ -62,19 +70,25 @@ body{
 .w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 .blurredbox::before{
-    background-image: url('http://bit.ly/2gPLxZ4');
+    /* background-image: url('http://bit.ly/2gPLxZ4');
     filter: blur(1.5rem);
     margin: auto;
     width: 100%;    
-    height: 400px;
+    height: 800px;
     z-index: -1;
     display: block;
     position: absolute;
-    content: ' ';
+    content: ' '; */
+}
+.blurredbox{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height:100%;
+    padding-top: 100px;
 }
 .HackathonName{
     font-size: 2.2vw;
-    color: black;
+    color: black;   
 }
 #summarybox{
     margin:auto;
@@ -91,4 +105,24 @@ body{
     padding: 5px;
     font-size: 1vw;
     color: black;
+}
+.flex-container {
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.flex-item{
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+  line-height: 75px;
+}
+.fillerbox{
+    /* height: 1000px; */
+    width: 100%;
+    
 }
