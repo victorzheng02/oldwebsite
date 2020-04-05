@@ -1,8 +1,9 @@
 import React from 'react'
+import BoxFormat from './props/BoxFormat'
 
 let Hobbies = () => {
     return(
-        <div class = "experience"></div>
+        <BoxFormat/>
     )
 }
 export default Hobbies;

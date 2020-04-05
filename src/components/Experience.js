@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import HackathonFormat from "./props/HackathonFormat";
+import Hobbies from "./Hobbies"
 const headerStyle = {   
     fontSize: "3vw",
     color: "Black",
@@ -11,7 +12,7 @@ let Experience = () => {
     return(
         <Router>
         <div>
-        <div class = "experience">
+        <div id = "experience">
         <h1 style = {headerStyle}>Hackathons</h1>
             <ul class = "flex-container">
             <li class="flex-item">
@@ -71,7 +72,9 @@ let Experience = () => {
             </ul>
             </div>
             
-            
+            <div id = "Hobbies">
+            <Hobbies />
+            </div>
             </div>
         </div>
         </Router>

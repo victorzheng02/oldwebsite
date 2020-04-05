@@ -14,11 +14,11 @@ let NavBar = () => {
     <div class = "NavigationBar">
         <nav>
             <ul class = "NavBar">
-            <li class = "NavBarItem"><Link to="#Home">Home</Link></li>
-            <li class = "NavBarItem"><Link to="#aboutme">About Me</Link></li>
-            <li class = "NavBarItem"><Link to="#experience">Experience</Link></li>
-            <li class = "NavBarItem"><Link to="#Hobbies">Hobbies</Link></li>
-            <li class = "NavBarItem"><Link to="/Resume">Resume</Link>"></li>
+            <li class = "NavBarItem"><a href="#Home">Home</a></li>
+            <li class = "NavBarItem"><a href="#aboutme">About Me</a></li>
+            <li class = "NavBarItem"><a href="#experience">Experience</a></li>
+            <li class = "NavBarItem"><a href="#Hobbies">Hobbies</a></li>
+            <li class = "NavBarItem"><a href="/resume">Resume</a></li>
  
                 </ul>
             </nav>
