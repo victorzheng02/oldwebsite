@@ -55,17 +55,21 @@ let Experience = () => {
             </li>
             </ul>
             <h1 style = {headerStyle}> Work Experience </h1>
-            <h2> conversationHEALTH</h2>
-            <a href="https://www.conversationhealth.com/">
-<img src={require("../images/conversattionhealth.png")} alt="convohealth" width = "5%" height = "5%"/>
-</a>
+            <h2 class = "WorkExperience"> conversationHEALTH</h2>
             
-            <li>Created chatbot named "emojiHEALTH," designed to help teens learn and talk about health, using mainly JavaScript
+<div class = "workbox">
+<a href="https://www.conversationhealth.com/">
+<img src={require("../images/conversattionhealth.png") } alt="convohealth" width = "100%" height = "100%"/>
+</a> 
+            <ul>
+            <li class = "WorkExperience">Created chatbot named "emojiHEALTH," designed to help teens learn and talk about health, using mainly JavaScript
                      and the Botpress framework</li>
-            <li>Assisted in implementing Natural Language Processing through RASA</li>
-            <li>Implementing over 30 different conversational flows into the bot</li>
-            <li>Developing a user database system using SQLite</li>
-            <li>Managing version control and fixing merging conflicts</li>
+            <li class = "WorkExperience">Assisted in implementing Natural Language Processing through RASA</li>
+            <li class = "WorkExperience">Implementing over 30 different conversational flows into the bot</li>
+            <li class = "WorkExperience">Developing a user database system using SQLite</li>
+            <li class = "WorkExperience">Managing version control and fixing merging conflicts</li>
+            </ul>
+            </div>
             
             
             </div>

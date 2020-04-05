@@ -2,11 +2,17 @@
     height: 100%;
     width:100;
 }
-.HackathonName h2{
-    color:black;
-    font-size: 2vw; 
+h2.WorkExperience{
+    padding-top: 2%;
+    color:Black;
+    text-align: center;
+    font-size: 2.5vw;
 }
-.HackathonName h3{
+h2.HackathonName{
+    color:black;
+    font-size: 3vw; 
+}
+h3.HackathonName{
     color:black;
     font-size: 2vw;
 }
@@ -50,6 +56,7 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    height: 20%
   }
   
   .NavBarItem {
@@ -62,6 +69,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1vw;
   }
   
   .NavBarItem a:hover {
@@ -101,10 +109,10 @@ body{
     font-size: 2vw;
 }
 
-.experience li{
-    padding: 5px;
-    font-size: 1vw;
+li.WorkExperience{
+    font-size: 1.2vw;
     color: black;
+    padding: 0.5%;
 }
 .flex-container {
     display: flex;
@@ -126,3 +134,12 @@ body{
     width: 100%;
     
 }
+.workbox{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 320px) {
+    .flexcontainer {
+      display: block;
+    }
+  }
