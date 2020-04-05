@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-
+import { Document } from 'react-pdf'
 class Resume extends Component {
   render() {
 
 
     return (
-      <section id="resume">
-      <p> fsdfsdfsdfsdfsdfs</p>
-   </section>
+      <div id="resume">
+      <Document file="../images/Resume.pdf"
+      onLoadSuccess={this.onDocumentLoadSuccess} />
+   </div>
     );
   }
 }
