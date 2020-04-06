@@ -1,22 +1,34 @@
 import React from 'react';
+import Swiper from 'swiper'
+import '../../css/swiper.min.css'
+import SimpleSwiper from './SimpleSwiper'
 const ImageFormat = {
-    width:"100%", 
-    height:"100%"
+  width: "100%",
+  height: "100%"
 }
-let BoxFormat = (props) =>{
-    return(
-    <div class="flip-box">
-    <div class="flip-box-inner">
-    <div class="flip-box-front">
-      <img src={require("../../images/modelun.png")} alt="Paris" style={ImageFormat}/>
-    </div>
-    <div class="flip-box-back">
-      <h2>Paris</h2>
-      <p>What an city</p>
-    </div>
-  </div>
-</div>
-)
+const swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+let BoxFormat = (props) => {
+  return (
+    <div>
+    <SimpleSwiper/>
+      </div>
+
+  )
 }
 
 export default BoxFormat

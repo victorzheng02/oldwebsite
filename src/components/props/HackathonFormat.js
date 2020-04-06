@@ -7,6 +7,7 @@ const hackathonexperience = {
     padding: "0",
     position: "relative",
 }
+
 function HackathonFormat(props){
     return(
         <div class ="hackathonformat">

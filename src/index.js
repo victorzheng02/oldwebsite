@@ -1,7 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import App from "./components/MyApp.js"
-import './style.css'
+import './css/style.css'
+
+// import './css/swiper.min.css'
 
 
 // import 'https://fonts.googleapis.com/icon?family=Material+Icons'
