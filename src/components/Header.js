@@ -1,15 +1,15 @@
-import React from "react"
+import React, {Component} from "react"
 
-
-const avatar = {
-    borderRadius: "50%",
-    display: "block",
-    marginLeft: "auto",
-    marginRight: "auto",
-    width: "20%",
-    height: "20%",
-}
-let AboutMe = () => {
+class AboutMe extends Component{
+    render(){
+        const avatar = {
+            borderRadius: "50%",
+            display: "block",
+            marginLeft: "auto",
+            marginRight: "auto",
+            width: "20%",
+            height: "20%",
+        }
     return (
         <div class = "blurredbox">
                 <div class = "fillerbox">
@@ -20,6 +20,6 @@ let AboutMe = () => {
         <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School for the Enhanced Learning Program. Scroll down to learn a bit about me! </p>
         </div>
 
-    )}
+    )}}
 
 export default AboutMe

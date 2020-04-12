@@ -1,9 +1,14 @@
-import React from 'react'
-import BoxFormat from './props/BoxFormat'
+import React,{Component} from 'react'
+// import BoxFormat from './props/BoxFormat'
+
+import HobbiesSlider from './props/HobbiesSlider'
 // import SimpleSwiper from './props/SimpleSwiper'
-let Hobbies = () => {
+class Hobbies extends Component{
+    render(){
     return(
-        <BoxFormat/>
-    )
+        <div>
+        <HobbiesSlider/>
+        </div>
+    )}
 }
 export default Hobbies;

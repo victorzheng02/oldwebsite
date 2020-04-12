@@ -2,13 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import HackathonFormat from "./props/HackathonFormat";
 import Hobbies from "./Hobbies"
-const headerStyle = {   
-    fontSize: "3vw",
-    color: "Black",
-    paddingTop: "2%",
-    textAlign: "center"
-}
-let Experience = () => {
+
+class Experience extends React.Component{
+    render(){
+        const headerStyle = {   
+            fontSize: "3vw",
+            color: "Black",
+            paddingTop: "2%",
+            textAlign: "center"
+        }
     return(
         <Router>
         <div>
@@ -78,6 +80,6 @@ let Experience = () => {
             </div>
         </div>
         </Router>
-    )   
+    )}
 }
 export default Experience;
