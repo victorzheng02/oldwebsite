@@ -9,7 +9,8 @@ import HobbiesFormat from './HobbiesFormat'
 const HobbyHeader = {
     fontSize: "4vw"
 }
-const HobbiesSlider = () => {
+class HobbiesSlider extends React.Component{
+    render(){
     const params = {
         loop: true,
         grabCursor: true,
@@ -52,5 +53,6 @@ const HobbiesSlider = () => {
         </Swiper>
         </div>
     )
+}
 }
 export default HobbiesSlider;

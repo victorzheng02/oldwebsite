@@ -1,13 +1,13 @@
 import React from 'react'
 
-let HobbiesFormat = (props) => {
-    let image = require(props.imagelink)
+class HobbiesFormat extends React.Component{
+    render(){
     return(
-    <div >
-    <div class="hobbyitem">
-    <img src= {image}  alt="hobbyimage" width = {props.width} height = {props.height}/>
-        <h1>{props.hobbytext}</h1>
-        </div>
+
+    <div class = "text">
+    <img src={require(this.props.imagesrc)} alt="devpost" width = "20%" height = "20%"/>
+        <h1>{this.props.hobbytext}</h1>
 </div>)
+    }
 }
 export default HobbiesFormat;

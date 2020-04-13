@@ -2,15 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import HackathonFormat from "./props/HackathonFormat";
 import Hobbies from "./Hobbies"
-
+const headerStyle = {   
+    fontSize: "3vw",
+    color: "Black",
+    paddingTop: "2%",
+    textAlign: "center"
+}
 class Experience extends React.Component{
     render(){
-        const headerStyle = {   
-            fontSize: "3vw",
-            color: "Black",
-            paddingTop: "2%",
-            textAlign: "center"
-        }
+        
     return(
         <Router>
         <div>
@@ -57,8 +57,8 @@ class Experience extends React.Component{
                 />
             </li>
             </ul>
-            <h1 style = {headerStyle}> Work Experience </h1>
-            <h2 class = "WorkExperience"> conversationHEALTH</h2>
+            <h1 style = {headerStyle} id = "workexperience"> Work Experience </h1>
+            <h2 class = "Work"> conversationHEALTH</h2>
             
 <div class = "workbox">
 <a href="https://www.conversationhealth.com/">

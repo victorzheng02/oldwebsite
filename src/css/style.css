@@ -5,7 +5,7 @@ html {
     height: 100%;
     width:100;
 }
-h2.WorkExperience{
+h2.Work{
     padding-top: 2%;
     color:Black;
     text-align: center;
@@ -130,7 +130,7 @@ li.WorkExperience{
     width: 40%;
     margin: 10px;
     text-align: center;
-  line-height: 75px;
+    line-height: 200%;
 }
 .fillerbox{
     /* height: 1000px; */
