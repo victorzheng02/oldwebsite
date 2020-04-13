@@ -202,9 +202,19 @@ li.WorkExperience{
   .hobbyitem:hover {
     background-color: yellow;
   }
-  .centered{
+  h1.hobbyitem {
+    font-size: 1000px;
+  }
+  .CenteredHover{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
+ h1.hobby{
+  position:relative;
+visibility:hidden;
+ }
+ h1.hobby:hover{
+   visibility: visible;
+ }
