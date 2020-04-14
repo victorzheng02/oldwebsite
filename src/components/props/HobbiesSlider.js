@@ -15,7 +15,7 @@ class HobbiesSlider extends React.Component {
             loop: true,
             grabCursor: true,
             centeredSlides: true,
-            slidesPerView: '3',
+            slidesPerView: '5',
             pagination: {
                 el: '.swiper-pagination',
                 // el: '.swiper-pagination',
@@ -34,20 +34,29 @@ class HobbiesSlider extends React.Component {
                 <h1 style={HobbyHeader}>Hobbies and Extracurriculars</h1>
                 <Swiper {...params}>
                     <div class = "hobby">
-                        <img src={require("../../images/modelun.png")} alt="munlogo" width="60%" height="80%" class="CenteredHover" />
-                        <h1> Here is model Un </h1>
+                        <img src={require("../../images/modelun.png")} alt="munlogo" width="100%" height="80%" class="CenteredHover" />
+                        <div class="overlay">
+                        <h1 class="hobbytext"> Here is model Un </h1>
+                        </div>
+                    </div>
+                    <div class = "hobby" >
+                        <img src={require("../../images/robotics.jpg")} alt="munlogo" width="60%" height="80%" class="CenteredHover" border = "10 px solid" />
+                        <div class="overlay">
+                        <h1 class="hobbytext"> Here is robotics </h1>
+                        </div>
+                       
                     </div>
                     <div class = "hobby" >
                         <img src={require("../../images/robotics.jpg")} alt="munlogo" width="60%" height="80%" class="CenteredHover" />
-                        <h1> Here is robotics </h1>
+                        <div class="overlay">
+                        <h1 class="hobbytext"> Here is MEDLIFE </h1>
+                        </div>
                     </div>
                     <div class = "hobby" >
                         <img src={require("../../images/robotics.jpg")} alt="munlogo" width="60%" height="80%" class="CenteredHover" />
-                        <h1> Here is MEDLIFE </h1>
-                    </div>
-                    <div class = "hobby" >
-                        <img src={require("../../images/robotics.jpg")} alt="munlogo" width="60%" height="80%" class="CenteredHover" />
-                        <h1> Here is Badminton </h1>
+                        <div class="overlay">
+                        <h1 class="hobbytext"> Here is Badminton </h1>
+                        </div>
                     </div>
                 </Swiper >
             </div >

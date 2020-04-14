@@ -1,0 +1,94 @@
+.body {
+}
+h2{
+    color:red
+}
+h3{
+    color:red
+}
+.experience{
+    background-color: rgba(256,256,256,0.7);
+}
+body{
+    width: 100%;
+    margin: 0;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url(http://bit.ly/2gPLxZ4);
+    opacity: 1;
+  
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+    
+}
+
+#aboutme{
+    font-size: 5vw;
+    text-align: center;
+    color: white;
+    position: relative;
+    animation:opac 4s}@keyframes opac{from{opacity:0} to{opacity:1};
+    
+}
+.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .NavBarItem {
+    float: left;
+  }
+  
+  .NavBarItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .NavBarItem a:hover {
+    background-color: darkblue;
+  }
+.w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.blurredbox::before{
+    background-image: url('http://bit.ly/2gPLxZ4');
+    filter: blur(1.5rem);
+    margin: auto;
+    width: 100%;    
+    height: 400px;
+    z-index: -1;
+    display: block;
+    position: absolute;
+    content: ' ';
+}
+.HackathonName{
+    font-size: 2.2vw;
+    color: black;
+}
+#summarybox{
+    margin:auto;
+    position: relative;
+    color: white;
+    padding: 10px;
+    font-family: "Arial";
+    text-align: center;
+    width: 80%;
+    font-size: 2vw;
+}
+
+.experience li{
+    padding: 5px;
+    font-size: 1vw;
+    color: black;
+}
