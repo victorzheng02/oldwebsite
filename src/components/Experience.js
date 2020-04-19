@@ -61,7 +61,7 @@ class Experience extends React.Component{
             <h2 class = "Work"> conversationHEALTH</h2>
             
 <div class = "workbox">
-<a href="https://www.conversationhealth.com/">
+<a href="https://www.conversationhealth.com/" target="_blank">
 <img src={require("../images/conversattionhealth.png") } alt="convohealth" width = "100%" height = "100%"/>
 </a> 
             <ul>
@@ -74,6 +74,19 @@ class Experience extends React.Component{
             </ul>
             </div>
             
+<div class = "workbox">
+<a href= "https://www.lifetime.life/" target="_blank">
+<img src={require("../images/lifetime.png")} alt="lifetime" width = "100%" height = "100%"/>
+</a>
+<ul>
+            <li class = "WorkExperience">Created chatbot named "emojiHEALTH," designed to help teens learn and talk about health, using mainly JavaScript
+                     and the Botpress framework</li>
+            <li class = "WorkExperience">Assisted in implementing Natural Language Processing through RASA</li>
+            <li class = "WorkExperience">Implementing over 30 different conversational flows into the bot</li>
+            <li class = "WorkExperience">Developing a user database system using SQLite</li>
+            <li class = "WorkExperience">Managing version control and fixing merging conflicts</li>
+            </ul>
+</div>
             <div id = "Hobbies">
             <Hobbies />
             </div>

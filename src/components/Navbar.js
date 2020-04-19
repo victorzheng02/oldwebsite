@@ -19,7 +19,7 @@ let NavBar = () => {
             <li class = "NavBarItem"><a href="#experience">Projects</a></li>
             <li class = "NavBarItem"><a href="#workexperience">Work Experience</a></li>
             <li class = "NavBarItem"><a href="#Hobbies">Hobbies</a></li>
-            <li class = "NavBarItem"><a href="/resume">Resume</a></li>
+            <li class = "NavBarItem"><a href="/images/ProgrammingResume.pdf" target="_blank">Resume</a></li>
  
                 </ul>
             </nav>
