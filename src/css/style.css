@@ -59,11 +59,12 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    height: 20%
+    height: 3.2vw;
   }
   
   .NavBarItem {
     float: left;
+    height: relative;
   }
   
   .NavBarItem a {
@@ -72,7 +73,8 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 1.5vw;
+
   }
   
   .NavBarItem a:hover {
@@ -110,6 +112,7 @@ body{
     text-align: center;
     width: 80%;
     font-size: 2vw;
+    margin-bottom:
 }
 
 li.WorkExperience{
@@ -130,7 +133,7 @@ li.WorkExperience{
     width: 40%;
     margin: 10px;
     text-align: center;
-    line-height: 200%;
+
 }
 .fillerbox{
     /* height: 1000px; */
@@ -244,4 +247,32 @@ li.WorkExperience{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.social-container {
+  padding-top: 2vw;
+
+  text-align: center;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 200ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-3px);
+}
+a.linkedin {
+  color: #2867B2;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.github {
+  color: white;
+}
+
+a.instagram {
+  color: pink;
 }
