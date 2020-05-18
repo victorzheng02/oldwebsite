@@ -45,21 +45,20 @@ body{
     
 }
 
-#aboutme{
+#intro{
     font-size: 5vw;
     text-align: center;
     color: white;
     position: relative;
+    margin-bottom: 1vw;
     animation:opac 4s}@keyframes opac{from{opacity:0} to{opacity:1};
-    
 }
 .NavBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    height: 3.2vw;
+    background-color: black;
   }
   
   .NavBarItem {
@@ -74,6 +73,8 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.5vw;
+    transition: 0.3s;
+    display: inline-block;
 
   }
   
@@ -97,7 +98,7 @@ body{
     background-color: rgba(0,0,0,0.6);
     width: 100%;
     height:100%;
-    padding-top: 100px;
+    padding-top: 3vw;
 }
 .HackathonName{
     font-size: 2.2vw;
@@ -107,7 +108,7 @@ body{
     margin:auto;
     position: relative;
     color: white;
-    padding: 10px;
+    padding-bottom: 3vw;
     font-family: "Arial";
     text-align: center;
     width: 80%;

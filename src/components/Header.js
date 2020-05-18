@@ -25,7 +25,7 @@ class AboutMe extends Component{
         <div id = "mediabox">
             <Mediabox />
             </div>
-        <h1 id = "aboutme">Hi! My Name is Victor Zheng </h1>
+        <h1 id = "intro">Hi! My Name is Victor Zheng </h1>
 
         <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School for the Enhanced Learning Program. Scroll down to learn a bit about me! </p>
 
