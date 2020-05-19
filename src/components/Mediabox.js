@@ -14,7 +14,7 @@ function Mediabox() {
   className="linkedin social">
   <FontAwesomeIcon icon={faLinkedin} size="3x" />
 </a>
-<a href="https://github.com/SmilestheSad" target="_blank" className="github social social">
+<a href="https://github.com/SmilestheSad" target="_blank" className="github social">
   <FontAwesomeIcon icon={faGithub} size="3x" />
 </a>
 <a href="https://www.instagram.com/victorzheng231/" target="_blank"

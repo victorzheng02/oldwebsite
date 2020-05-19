@@ -6,7 +6,6 @@ html {
     width:100;
 }
 h2.Work{
-    padding-top: 2%;
     color:Black;
     text-align: center;
     font-size: 2.5vw;
@@ -14,10 +13,12 @@ h2.Work{
 h2.HackathonName{
     color:black;
     font-size: 3vw; 
+    text-align: center;
 }
 h3.HackathonName{
     color:black;
-    font-size: 2vw;
+    font-size: 3vw;
+    text-align: center;
 }
 .HackathonFormat{
     display: grid;
@@ -100,10 +101,6 @@ body{
     height:100%;
     padding-top: 3vw;
 }
-.HackathonName{
-    font-size: 2.2vw;
-    color: black;   
-}
 #summarybox{
     margin:auto;
     position: relative;
@@ -144,7 +141,6 @@ li.WorkExperience{
 .workbox{
     display: flex;
     align-items: center;
-    margin-bottom: 50px;
 }
 @media (max-width: 320px) {
     .flexcontainer {
@@ -201,7 +197,7 @@ li.WorkExperience{
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 300px;
+    height: 30vw;
     /* position: relative; */
     /* width: 50%; */
 
@@ -276,4 +272,16 @@ a.github {
 
 a.instagram {
   color: pink;
+}
+
+.hover-item {
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5vw;
+}
+.hover-item:hover {
+  transform: translate(0, -10px);
+}
+#projects{
+  background-color: rgba(256,256,256,0.7);
 }
