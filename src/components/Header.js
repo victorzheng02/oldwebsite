@@ -7,15 +7,15 @@ import {
   faTwitter,
   faInstagram
 } from "@fortawesome/free-brands-svg-icons";
-class AboutMe extends Component{
+class Header extends Component{
     render(){
         const avatar = {
             borderRadius: "50%",
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
-            width: "20%",
-            height: "20%",
+            width: "23%",
+            height: "23%",
         }
     return (
         <div class = "blurredbox">
@@ -27,10 +27,10 @@ class AboutMe extends Component{
             </div>
         <h1 id = "intro">Hi! My Name is Victor Zheng </h1>
 
-        <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School for the Enhanced Learning Program. Scroll down to learn a bit about me! </p>
+        <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School. <br></br>Scroll down to learn a bit about me! </p>
 
         </div>
 
     )}}
 
-export default AboutMe
+export default Header

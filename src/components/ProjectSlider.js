@@ -4,10 +4,9 @@ import Swiper from 'react-id-swiper';
 // import 'react-id-swiper/lib/styles/css/swiper.css';
 // Version >= 2.4.0
 import 'swiper/css/swiper.css';
-import HobbiesFormat from './props/HobbiesFormat'
 import HackathonFormat from "./props/HackathonFormat";
 const HobbyHeader = {
-    fontSize: "4vw",
+    fontSize: "3vw",
     textAlign: "center",
     marginTop : "0px",
     marginBottom: "-2vw",

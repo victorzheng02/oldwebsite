@@ -17,7 +17,7 @@ h2.HackathonName{
 }
 h3.HackathonName{
     color:black;
-    font-size: 3vw;
+    font-size: 2.4vw;
     text-align: center;
 }
 .HackathonFormat{
@@ -47,11 +47,11 @@ body{
 }
 
 #intro{
-    font-size: 5vw;
+    font-size: 3.5vw;
     text-align: center;
     color: white;
     position: relative;
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
     animation:opac 4s}@keyframes opac{from{opacity:0} to{opacity:1};
 }
 .NavBar {
@@ -73,7 +73,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1vw;
     transition: 0.3s;
     display: inline-block;
 
@@ -109,8 +109,9 @@ body{
     font-family: "Arial";
     text-align: center;
     width: 80%;
-    font-size: 2vw;
-    margin-bottom:
+    font-size: 1.5vw;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
 }
 
 li.WorkExperience{
@@ -246,8 +247,7 @@ li.WorkExperience{
   text-align: center;
 }
 .social-container {
-  padding-top: 2vw;
-
+  padding-top: 2.5vw;
   text-align: center;
 }
 a.social {
@@ -284,4 +284,16 @@ a.instagram {
 }
 #projects{
   background-color: rgba(256,256,256,0.7);
+}
+#hobbies{
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+h1.hobbies{
+  margin-top:0px;
+}
+#aboutme{
+  color: white;
 }

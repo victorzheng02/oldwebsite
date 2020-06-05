@@ -1,13 +1,17 @@
 import React from "react"
-import AboutMe from "./Header"
+import Header from "./Header"
 import NavBar from "./Navbar"
 import Experience from "./Experience"
+import Hobbies from "./Hobbies"
 import ProjectSlider from "./ProjectSlider"
+import Aboutme from "./Aboutme"
 class App extends React.Component{
     render(){
     return(<div>
         <NavBar />
-        <AboutMe  />
+        <Header  />
+        <Aboutme />
+        <Hobbies />
         <ProjectSlider />
         <Experience />
         </div>)
