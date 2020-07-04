@@ -5,7 +5,7 @@ const headerStyle = {
     fontSize: "3vw",
     color: "Black",
     paddingTop: "5%",
-    paddingBottom: "5%",
+    paddingBottom: "3%",
     marginTop: "0px",
     textAlign: "center"
 }

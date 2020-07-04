@@ -110,14 +110,14 @@ body{
     text-align: center;
     width: 80%;
     font-size: 1.5vw;
-    padding-bottom: 2vw;
+    padding-bottom: 3vw;
     padding-top: 1vw;
 }
 
 li.WorkExperience{
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     color: black;
-    padding: 0.5%;
+    padding: 0.4%;
 }
 .flex-container {
     display: flex;
@@ -127,13 +127,21 @@ li.WorkExperience{
   padding: 0;
   margin: 0;
   list-style: none;
+  padding-left:3vw;
+  padding-right:3vw;
 }
 .flex-item{
-    width: 40%;
-    margin: 10px;
+    width: 33%;
+    margin: 0.1vw;
     text-align: center;
-
+    box-shadow: 0px 0px 4px 0 rgba(255, 255, 255, 0.3);
+    transition: box-shadow 500ms;
+    border-radius: 5%;
 }
+.flex-item:hover {
+  box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
+}
+
 .fillerbox{
     /* height: 1000px; */
     width: 100%;

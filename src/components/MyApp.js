@@ -5,15 +5,18 @@ import Experience from "./Experience"
 import Hobbies from "./Hobbies"
 import ProjectSlider from "./ProjectSlider"
 import Aboutme from "./Aboutme"
+import Footer from "./Footer"
+
 class App extends React.Component{
     render(){
     return(<div>
         <NavBar />
         <Header  />
-        <Aboutme />
+        {/* <Aboutme /> */}
         <Hobbies />
         <ProjectSlider />
         <Experience />
+        <Footer/>
         </div>)
     }
 }
