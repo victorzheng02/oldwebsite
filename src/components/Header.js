@@ -5,8 +5,11 @@ import {
   faYoutube,
   faFacebook,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faHome,
+  faSwift,
 } from "@fortawesome/free-brands-svg-icons";
+
 class Header extends Component{
     render(){
         const avatar = {
@@ -28,7 +31,7 @@ class Header extends Component{
         <h1 id = "intro">Hi! My Name is Victor Zheng </h1>
 
         <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School. <br></br>Scroll down to learn a bit about me! </p>
-
+        <a href="#hobbies"><img class = "vert-move"src={require("../images/arrow.png")} alt = "me" /></a>
         </div>
 
     )}}

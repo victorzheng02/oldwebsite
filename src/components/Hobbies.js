@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 let Hobby = {
     marginBottom: "1vw"
 }
@@ -21,7 +21,7 @@ let flexpara = {
 class Hobbies extends React.Component {
     render() {
         return (<div id="hobbies">
-            <h1 style={{ marginTop: "0px" }}> Experience</h1>
+            <h1 style={{ marginTop: "0px", textAlign: "center", fontSize: "3vw", paddingTop: "1vw"}}> Experience</h1>
             <div class="flex-container">
                 <div class="flex-item">
                     <h1 style={Hobby}> Badminton</h1>
