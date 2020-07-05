@@ -1,7 +1,7 @@
 import React from 'react'
 
 let aboutbox = {
-    marginTop: "0px",
+    marginTop: "1vw",
     marginBottom: "0px",
     fontSize: "1.5vw",
     textAlign: "center",

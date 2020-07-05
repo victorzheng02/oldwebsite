@@ -98,17 +98,14 @@ body{
     position: relative;
     color: white;
     padding-bottom: 3vw;
+    padding-top: 1vw;
     font-family: "Arial";
     text-align: center;
     width: 80%;
     font-size: 1.5vw;
-    padding-bottom: 1.5vw;
-    padding-top: 0.5vw;
 }
-
 li.WorkExperience{
     font-size: 1.1vw;
-    color: black;
     padding: 0.4%;
 }
 .flex-container {
