@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from "react-router-dom";
-// import Carouseltest from "./Carouseltest"r
+import {Container, Row, Col} from 'react-bootstrap';
+
+// import Carouseltest from "./Carouseltest"
 const headerStyle = {   
     fontSize: "3vw",
     color: "Black",
@@ -15,6 +17,7 @@ class Experience extends React.Component{
     return(
         <Router>
         <div>
+        
         <div id = "experience">
             <h1 style = {headerStyle} id = "workexperience"> Work Experience </h1>
             <h2 class = "Work"> conversationHEALTH</h2>
@@ -30,7 +33,8 @@ class Experience extends React.Component{
             <li class = "WorkExperience">Implementing over 30 different conversational flows into the bot</li>
             <li class = "WorkExperience">Developing a user database system using SQLite</li>
             <li class = "WorkExperience">Managing version control and fixing merging conflicts</li>
-            </ul>
+            </ul> 
+            
             </div>
             
             </div>

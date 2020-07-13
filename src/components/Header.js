@@ -30,7 +30,10 @@ class Header extends Component{
             </div>
         <h1 id = "intro">Hi! My Name is Victor Zheng </h1>
 
-        <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School. <br></br>Scroll down to learn a bit about me! </p>
+        <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School. I will be attending the University of Waterloo for their 
+        Computing and Financial Management program this fall.
+        Scroll down to learn a bit about me! </p>
+
         <a href="#hobbies"><img class = "vert-move"src={require("../images/arrow.png")} alt = "me" /></a>
         </div>
 

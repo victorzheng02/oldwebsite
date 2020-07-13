@@ -20,7 +20,7 @@ class ProjectSlider extends React.Component {
             slidesPerView: '3',
             updateOnWindowResize: true,
             setWrapperSize: true,
-            spaceBetween: 50,
+            spaceBetween: 10,
             pagination: {
                 el: '.swiper-pagination',
                 // el: '.swiper-pagination',
@@ -28,7 +28,8 @@ class ProjectSlider extends React.Component {
                 clickable: true
             },
             navigation: {
-                
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
             },
         }
 

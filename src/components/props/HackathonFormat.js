@@ -7,7 +7,9 @@ const hackathonexperience = {
     color: "Black",
     padding: "0",
     position: "relative",  
-    textAlign: "center"
+    textAlign: "center",
+    marginLeft: "3vw",
+    marginRight: "3vw"
 }
 
 
