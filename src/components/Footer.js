@@ -7,6 +7,7 @@ let FooterStyle = {
     textAlign: "center",
     fontSize: "0.7vw",
     fontWeight: "normal",
+    paddingTop: "1vw",
 
 }
 class Footer extends React.Component{

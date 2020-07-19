@@ -3,30 +3,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Autoplay } from 'swiper/js/swiper.esm';
 let Hobby = {
-    marginBottom: "1vw"
+    marginBottom: "0.5vw",
+    fontSize: "2.2vw",
+    marginTop: "0.5vw",
+    paddingTop: "0.5vw",
 }
 let flexitem = {
     borderRadius: "10%",
-    maxHeight: "100%",
-    maxWidth: "100%",
     width: "90%",
-    height: "65%"
-
+    height:"auto",
 }
 let flexpara = {
     // paddingBottom: "2vw",
     paddingLeft: "2vw",
     paddingRight: "2vw",
     paddingTop: "1vw",
+    fontSize: "1.2vw",
 
 }
 class Hobbies extends React.Component {
     render() {
         return (<div id="hobbies">
-            <h1 style={{ marginTop: "0px", textAlign: "center", fontSize: "2.4vw", paddingTop: "1vw" }}> Experience</h1>
-            <Container>
-                <Row xs = {2} md = {3} lg = {3} xl = {3}>
+            <h1 style={{ marginTop: "0px", textAlign: "center", fontSize: "2.4vw", paddingTop: "2vw" }}> Experience</h1>
+            <Container fluid>
+                <Row style = {{padding: "0vw 5vw 0vw 5vw"}} xs = {1} md = {2} lg = {3} xl = {3}>
                     <Col>
                         <div class="flex-item"><h1 style={Hobby}> Badminton</h1>
                             <img style={flexitem} src={require("../images/badminton.jpg")} alt="me" />
