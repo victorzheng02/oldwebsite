@@ -316,3 +316,50 @@ img.vert-move {
   font-size: 1vw;
   display: inline-block;
 }
+
+
+.flexpara{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+}
+@media (min-width:600px) {
+  .flexpara {
+    font-size: 3vw
+  }
+}
+
+@media (min-width:800px) {
+  .flexpara {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width:1000px) {
+  .flexpara {
+    font-size: 1.2vw;
+  }
+}
+
+#exp{
+   margin-top: 0px; 
+   text-align: center; 
+   padding-top: 2vw;
+}
+@media (min-width:600px) {
+  #exp {
+    font-size: 4vw
+  }
+}
+
+@media (min-width:800px) {
+  #exp {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width:1000px) {
+  #exp {
+    font-size: 2.4vw;
+  }
+}

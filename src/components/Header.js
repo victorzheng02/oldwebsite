@@ -30,7 +30,7 @@ class Header extends Component{
             </div>
         <h1 id = "intro">Hi! My Name is Victor Zheng </h1>
 
-        <p id = "summarybox">I am a grade 12 student currently attending the Woodlands Secondary School. I will be attending the University of Waterloo for their 
+        <p id = "summarybox">I am an 18 year old math student who will be attending the University of Waterloo for their 
         Computing and Financial Management program this fall.
         Scroll down to learn a bit about me! </p>
 
