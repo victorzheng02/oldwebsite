@@ -28,9 +28,7 @@ h3.HackathonName{
 } */
 
 
-#experience{
-    background-color: rgba(256,256,256,0.7);
-}
+
 body{
     width: 100%;
     margin: 0;  
@@ -51,7 +49,7 @@ body{
 }
 
 #intro{
-    font-size: 3.5vw;
+    font-size: 3vw;
     text-align: center;
     color: white;
     position: relative;
@@ -60,48 +58,50 @@ body{
     animation:opac 4s}@keyframes opac{from{opacity:0} to{opacity:1};
     
 }
+
 .NavBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-  }
-  
-  .NavBarItem {
-    float: left;
-    height: relative;
-  }
-  
-  .NavBarItem a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0.7vw 1vw 0.7vw 1vw;
-    text-decoration: none;
-    font-size: 1vw;
-    transition: 0.3s;
-    display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f0f0f;
+}
 
-  }
-  
-  .NavBarItem a:hover {
-    background-color: darkblue;
-  }
+
+.NavBarItem {
+  float: left;
+  height: relative;
+}
+
+.NavBarItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.7vw 1vw 0.7vw 1vw;
+  text-decoration: none;
+  font-size: 1vw;
+  transition: 0.3s;
+  display: inline-block;
+
+}
+
+.NavBarItem a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 .w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
-
 
 .blurredbox{
     background-color: rgba(0,0,0,0.6);
     width: 100%;
     height:100%;
-    padding-top: 1.5vw;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
 }
 #summarybox{
     margin:auto;
     position: relative;
     color: white;
-    padding-bottom: 3vw;
+    padding-bottom: 2vw;
     padding-top: 1vw;
     font-family: "Arial";
     text-align: center;
@@ -109,6 +109,14 @@ body{
     font-size: 1.5vw;
   
 }
+@media (max-width:600px) {
+    #summarybox {
+      font-size: 4vw
+    }
+    #intro {
+      font-size: 5vw
+    }
+  }
 li.WorkExperience{
     font-size: 1.1vw;
     padding: 0.4%;
@@ -118,12 +126,12 @@ li.WorkExperience{
     text-align: center;
     box-shadow: 0px 0px 4px 0 rgba(255, 255, 255, 0.3);
     transition: box-shadow 500ms;
-    border-radius: 5%;
-    
+    border-radius: 5%;    
 }
 .flex-item:hover {
   box-shadow: 0 0px 4px 0 rgba(255, 255, 255, 1);
 }
+
 
 .fillerbox{
     /* height: 1000px; */
@@ -278,14 +286,14 @@ a.instagram {
 #projects{
   background-color: rgba(256,256,256,0.7);
 }
-#hobbies{
+#experience{
   background-color: rgba(0,0,0,0.6);
   color: white;
   margin-top: 0px;
   padding-top: 0px;
 
 }
-h1.hobbies{
+h1.experience{
   margin-top:0px;
 }
 #aboutme{
@@ -313,19 +321,38 @@ img.vert-move {
 }
 
 .icon{
-  font-size: 1vw;
+  font-size: 0.85vw;
   display: inline-block;
 }
 
 
 .flexpara{
-  padding-left: 2vw;
-  padding-right: 2vw;
-  padding-top: 1vw;
+  padding: 1vw;
 }
+.flex-item > h1{
+  font-size: 2.2vw
+}
+@media (min-width:200px) {
+  .flexpara {
+    font-size: 5vw
+  }
+  .flex-item > h1{
+    font-size: 5.5vw
+  }
+  .NavBarItem > a{
+    font-size: 3vw
+  }
+}
+
 @media (min-width:600px) {
   .flexpara {
     font-size: 3vw
+  }
+  .flex-item > h1{
+    font-size: 3.5vw
+  }
+  .NavBarItem > a{
+    font-size: 2vw
   }
 }
 
@@ -333,11 +360,26 @@ img.vert-move {
   .flexpara {
     font-size: 2.5vw;
   }
+  .flex-item > h1{
+    font-size: 2.75vw;
+  }
 }
 
 @media (min-width:1000px) {
   .flexpara {
     font-size: 1.2vw;
+  }
+  .flex-item > h1{
+    font-size: 1.4vw;
+  }
+  .NavBarItem > a{
+    font-size: 1.5vw
+  }
+}
+
+@media (min-width:1400px) {
+  .NavBarItem > a{
+    font-size: 1vw
   }
 }
 
@@ -362,4 +404,8 @@ img.vert-move {
   #exp {
     font-size: 2.4vw;
   }
+}
+
+.col{
+
 }

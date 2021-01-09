@@ -13,7 +13,7 @@ let FooterStyle = {
 class Footer extends React.Component{
     render(){
         return(
-            <h3 style = {FooterStyle}>Created by Victor Zheng<br></br>Last updated July 2020</h3>
+            <h3 style = {FooterStyle}>Created by Victor Zheng<br></br>Last updated Jan 2021</h3>
         )
     }
 }

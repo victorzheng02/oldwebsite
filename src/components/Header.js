@@ -17,26 +17,23 @@ class Header extends Component{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
-            width: "23%",
-            height: "23%",
+            width: "21%",
+            height: "21%",
         }
     return (
         <div class = "blurredbox">
-                <div class = "fillerbox">
-        </div>
         <img style = {avatar}src={require("../images/pictureofme.jpg")} alt = "me" />
         <div id = "mediabox">
             <Mediabox />
             </div>
-        <h1 id = "intro">Hi! My Name is Victor Zheng </h1>
+        <h1 id = "intro">Hi! My name is Victor Zheng </h1>
 
-        <p id = "summarybox">I am an 18 year old math student who will be attending the University of Waterloo for their 
-        Computing and Financial Management program this fall.
+        <p id = "summarybox">I am an 18 year old math student attending the Computing and Financial Management <br/>
+        at the University of Waterloo.
         Scroll down to learn a bit about me! </p>
 
-        <a href="#hobbies"><img class = "vert-move"src={require("../images/arrow.png")} alt = "me" /></a>
+        <a href="#experience"><img class = "vert-move"src={require("../images/arrow.png")} alt = "me" /></a>
         </div>
-
     )}}
 
 export default Header

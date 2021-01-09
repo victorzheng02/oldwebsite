@@ -1,45 +1,71 @@
-import React from 'react';
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import {Container, Row, Col} from 'react-bootstrap';
-
-// import Carouseltest from "./Carouseltest"
-const headerStyle = {   
-    fontSize: "3vw",
-    color: "Black",
-    paddingTop: "5%",
-    paddingBottom: "3%",
-    marginTop: "0px",
-    textAlign: "center"
+import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { Container, Row, Col } from 'react-bootstrap';
+let Hobby = {
+    marginBottom: "0.5vw",
+    marginTop: "0.5vw",
+    paddingTop: "0.5vw",
+    minHeight: "30px",
 }
-class Experience extends React.Component{
-    render(){
-        
-    return(
-        <Router>
-        <div>
-        
-        <div id = "experience">
-            <h1 style = {headerStyle} id = "workexperience"> Work Experience </h1>
-            <h2 class = "Work"> conversationHEALTH</h2>
-            
-<div class = "workbox">
-<a href="https://www.conversationhealth.com/" target="_blank">
-<img src={require("../images/conversattionhealth.png") } alt="convohealth" width = "70%" height = "70%"/>
-</a> 
-            <ul>
-            <li class = "WorkExperience">Created chatbot named "emojiHEALTH," designed to help teens learn and talk about health, using mainly JavaScript
-                     and the Botpress framework</li>
-            <li class = "WorkExperience">Assisted in implementing Natural Language Processing through RASA</li>
-            <li class = "WorkExperience">Implementing over 30 different conversational flows into the bot</li>
-            <li class = "WorkExperience">Developing a user database system using SQLite</li>
-            <li class = "WorkExperience">Managing version control and fixing merging conflicts</li>
-            </ul> 
-            
+let flexitem = {
+    borderRadius: "10%",
+    width: "90%",
+    height:"100%",
+}
+
+let RowStyle = {
+    padding: "0vw 15vw 0vw 15vw",
+
+}
+
+class Experience extends React.Component {
+    render() {
+        return (<div id="experience">
+            <h1 id = "exp"> Experience</h1>
+            <Container fluid>
+                <Row style = {RowStyle} xs = {1} md = {2} lg = {3} xl = {3}>
+                    <Col>
+                        <div class="flex-item"><h1 style={Hobby}> Badminton</h1>
+                            <img style={flexitem} src={require("../images/badminton.jpg")} alt="me" />
+                            <p class = "flexpara">Having played badminton since I was 7, I currently train and play on a provincial level for Lee's Badminton Club.</p></div></Col>
+
+                    <Col>
+                        <div class="flex-item">
+                            <h1 style={Hobby}>Model UN </h1>
+                            <img style={flexitem} src={require("../images/pictureofme.jpg")} alt="me" />
+                            <p class = "flexpara">Served as the co-president of our highschool chapter of 50 members for two years and have hosted numerous Model UN conferences.</p>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div class="flex-item" style={{ marginBottom: "2vw" }}>
+                            <h1 style={Hobby}> MEDLIFE</h1>
+                            <img style={flexitem} src={require("../images/medlife.jpg")} alt="me" />
+                            <p class = "flexpara">With this non-profit, I've hosted multiple fundraisers and even went to Peru, building a staircase and helping with a mobile clinic.</p>
+                        </div>
+                    </Col>
+                    <Col> <div class="flex-item" style={{ marginBottom: "2vw" }}>
+                        <h1 style={Hobby}> Hackathons</h1>
+                        <img style={flexitem} src={require("../images/hackathon.jpg")} alt="me" />
+                        <p class = "flexpara">Having participated in numerous hackathons such as Hack the North and JAMHacks, I've created many projects which you can check out in the projects section!</p>
+                    </div></Col>
+                    <Col><div class="flex-item" style={{ marginBottom: "2vw" }}>
+                        <h1 style={Hobby}> Robotics</h1>
+                        <img style={flexitem} src={require("../images/robotics.jpg")} alt="me" />
+                        <p class = "flexpara">Serving as the executive of finance for Team 4308 Absolute Robotics, I've amassed over $10,000 in sponsorships for my team, which competes at the international level. </p>
+                    </div>
+                    </Col>
+                    <Col> <div class="flex-item">
+                    <h1 style={Hobby}> DECA</h1>
+                    <img style={flexitem} src={require("../images/deca.jpg")} alt="me" />
+                    <p class = "flexpara">Joining my school's chapter in grade 11, I placed top 20 in both years for the HLM category and first out of 1227 North Atlantic teams for the DECA Stock Market Game.</p>
+                </div>
+                </Col>
+                </Row>
+            </Container>
+            <div class="flex-container">
             </div>
-            
-            </div>
-        </div>
-        </Router>
-    )}
+        </div>)
+    }
 }
 export default Experience;

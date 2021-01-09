@@ -17,7 +17,7 @@ class ProjectSlider extends React.Component {
         const params = {
             loop: true,
             centeredSlides: true,
-            slidesPerView: '3',
+            slidesPerView: '1',
             updateOnWindowResize: true,
             setWrapperSize: true,
             spaceBetween: 10,
@@ -31,6 +31,12 @@ class ProjectSlider extends React.Component {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            breakpoints: {
+                // when window width is >= 480px
+                800: {
+                  slidesPerView: 3
+                },
+                }
         }
 
         return (
@@ -44,7 +50,7 @@ class ProjectSlider extends React.Component {
             linktodev = "https://devpost.com/software/meshform"
             linktogit = "https://github.com/SmilestheSad/MeshForm"
             hackathontext = "Created an app for FRC scouting events. After entering scouting information on your phone, 
-            you can wirelessly transmit the data to other teammates using a QR code. Built using react native and javascript."
+            you can wirelessly transmit the data to other teammates using a QR code. Built using React Native and JavaScript."
                 />
                         
                     </div>
@@ -55,7 +61,7 @@ class ProjectSlider extends React.Component {
             linktodev = "https://devpost.com/software/allervision"
             linktogit = "https://github.com/SmilestheSad/HTNFrontEnd"
             hackathontext = "Created an app that uses Google's Vision API to scan foods and detect potential allergies. 
-            Built using react native, ajax, python, flask and edamam api."
+            Built using React Native, Python, Flask and Edamam API."
                 />
                     </div>
                     <div>
@@ -64,7 +70,7 @@ class ProjectSlider extends React.Component {
             ProjectName = "The Jam Expansion"
             linktodev = "https://devpost.com/software/thejamexpansion"
             linktogit = "https://github.com/SmilestheSad/TheJamExpansion"
-            hackathontext = "Created a dungeon crawler game with multiple levels using python and pygame."
+            hackathontext = "Created a dungeon crawler game with multiple levels using Python and Pygame."
             />
                     </div>
                     <div>
@@ -74,7 +80,17 @@ class ProjectSlider extends React.Component {
             linktodev = "https://devpost.com/software/wolfhacks19"
             linktogit = "https://github.com/SmilestheSad/wolfhacks19"
             hackathontext = "Messaging app with built to allow people who speak different languages to communicate with each other. 
-            Built using Google Translate API, Firebase, javascript, HTML and CSS."
+            Built using Google Translate API, Firebase, JavaScript, HTML and CSS."
+                />
+                    </div>
+                    <div>
+                    <HackathonFormat 
+            HackathonName = "TOHacks"
+            ProjectName = "BadHabits"
+            linktodev = "https://devpost.com/software/screamer"
+            linktogit = "https://github.com/SmilestheSad/TOHacks2020"
+            hackathontext = "Created an app that determines how much time you spend on apps you choose to monitor,
+             and posts embarassing tweets of you using Twitter API when you spend too long on those apps."
                 />
                     </div>
                 </Swiper >
