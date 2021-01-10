@@ -10,16 +10,6 @@ h2.Work{
     text-align: center;
     font-size: 2.5vw;
 }
-h2.HackathonName{
-    color:black;
-    font-size: 3vw; 
-    text-align: center;
-}
-h3.HackathonName{
-    color:black;
-    font-size: 2.4vw;
-    text-align: center;
-}
 /* .hackathonformat{
     box-shadow: 0px 0px 4px 0 rgba(255, 255, 255, 1);
     transition: box-shadow 500ms;
@@ -188,11 +178,7 @@ li.WorkExperience{
     transform: rotateY(180deg);
   }
 
-  .swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+  
   .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -342,8 +328,33 @@ img.vert-move {
   .NavBarItem > a{
     font-size: 3vw
   }
+  #hobbyhead{
+    font-size: 8vw;
+    padding-top: 4vw;
+  }
+  .HackathonName{
+    font-size: 6vw;
+  }
+  .hover-item{
+    width: 14%;
+    height: 14%;
+  }
+  .hackathonp{
+    font-size: 4vw;
+    padding-left: 10vw;
+  }
+  .swiper-container{
+    padding-bottom: 31vw;
+  }
+  #footer{
+    font-size: 2vw;
+  }
+
 }
 
+#swiperbox{
+  padding-top: 100vw;
+}
 @media (min-width:600px) {
   .flexpara {
     font-size: 3vw
@@ -354,6 +365,10 @@ img.vert-move {
   .NavBarItem > a{
     font-size: 2vw
   }
+  .hackathonp{
+    font-size: 4vw;
+  }
+  
 }
 
 @media (min-width:800px) {
@@ -363,8 +378,53 @@ img.vert-move {
   .flex-item > h1{
     font-size: 2.75vw;
   }
+  .HackathonName{
+    font-size: 3vw;
+  }
+  #hobbyhead{
+    font-size: 4vw;
+    padding-top:2vw;
+  }
+  .hover-item{
+    width: 25%;
+    height: 25%;
+  }
+  .hackathonp{
+    font-size: 1.5vw;
+  }
+  .swiper-container {
+    padding-bottom: 2vw;
+  }
+  #footer{
+    font-size: 0.7vw;
+  }
+}
+#footer{
+  color:white;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 1vw;
+}
+.swiper-container{
+  width: 100%;
+  padding-top: 2vw;
+}
+.hackathonp{
+  color: Black;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+#hobbyhead{
+  text-align: center;
 }
 
+.HackathonName{
+  text-align: center;
+  color:black;
+}
 @media (min-width:1000px) {
   .flexpara {
     font-size: 1.2vw;
@@ -409,3 +469,5 @@ img.vert-move {
 .col{
 
 }
+
+

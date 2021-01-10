@@ -5,13 +5,6 @@ import Swiper from 'react-id-swiper';
 // Version >= 2.4.0
 import 'swiper/css/swiper.css';
 import HackathonFormat from "./props/HackathonFormat";
-const HobbyHeader = {
-    fontSize: "3vw",
-    textAlign: "center",
-    marginTop : "0px",
-    marginBottom: "-2vw",
-    paddingTop: "5vw"
-}
 class ProjectSlider extends React.Component {
     render() {
         const params = {
@@ -41,8 +34,8 @@ class ProjectSlider extends React.Component {
 
         return (
             <div id = "projects">
-                <h1 style={HobbyHeader}>Projects</h1>
-                <Swiper {...params}>
+                <h1 id="hobbyhead">Projects</h1>
+                <Swiper {...params} id = "swiperbox">
                     <div>
                     <HackathonFormat 
             HackathonName = "FraserHacks"

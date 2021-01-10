@@ -1,15 +1,5 @@
 import React, {Component} from "react"
 import Mediabox from "./Mediabox"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faYoutube,
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faHome,
-  faSwift,
-} from "@fortawesome/free-brands-svg-icons";
-
 class Header extends Component{
     render(){
         const avatar = {

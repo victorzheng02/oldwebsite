@@ -29,7 +29,7 @@ export default function NavBar(props) {
             <li class = "NavBarItem"><a href="#projects">Projects</a></li>
             {/* <li class = "NavBarItem"><a href="#workexperience">Work Experience</a></li> */}
             
-            <li class = "NavBarItem"><a href="/images/ProgrammingResume.pdf" target="_blank">Resume</a></li>
+            <li class = "NavBarItem"><a href="/ProgrammingResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
  
                 </ul>
             </nav>
