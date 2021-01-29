@@ -12,7 +12,7 @@ class Header extends Component{
         }
     return (
         <div class = "blurredbox">
-        <img style = {avatar}src={require("../images/pictureofme.jpg")} alt = "me" />
+        <img style = {avatar}src={require("../images/victor(me).png")} alt = "me" />
         <div id = "mediabox">
             <Mediabox />
             </div>

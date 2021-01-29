@@ -28,7 +28,7 @@ class Experience extends React.Component {
                     <Col>
                         <div class="flex-item"><h1 style={Hobby}> Badminton</h1>
                             <img style={flexitem} src={require("../images/badminton.jpg")} alt="me" />
-                            <p class = "flexpara">Having played badminton since I was 7, I currently train and play on a provincial level for Lee's Badminton Club.</p></div></Col>
+                            <p class = "flexpara">Having played badminton since I was 7, I've trained and played on a provincial level for Lee's Badminton Club.</p></div></Col>
 
                     <Col>
                         <div class="flex-item">
@@ -45,9 +45,10 @@ class Experience extends React.Component {
                         </div>
                     </Col>
                     <Col> <div class="flex-item" style={{ marginBottom: "2vw" }}>
-                        <h1 style={Hobby}> Hackathons</h1>
-                        <img style={flexitem} src={require("../images/hackathon.jpg")} alt="me" />
-                        <p class = "flexpara">Having participated in numerous hackathons such as Hack the North and JAMHacks, I've created many projects which you can check out in the projects section!</p>
+                        <h1 style={Hobby}> WATonomous</h1>
+                        <img style={flexitem} src={require("../images/WATOPhoto.jpeg")} alt="me" />
+                        <p class = "flexpara">Currently the internal sponsorship manager for WATonomous, a student design team based in the University of Waterloo. 
+                        I've helped raise over $25,000 in funding to help build a self-driving car!</p>
                     </div></Col>
                     <Col><div class="flex-item" style={{ marginBottom: "2vw" }}>
                         <h1 style={Hobby}> Robotics</h1>

@@ -11,7 +11,7 @@ function Mediabox() {
   return (
     <div class="social-container">
       <div class = "icon">
-      <a href="https://www.linkedin.com/in/victor-zheng-a4462a164/" target="_blank" rel="noopener noreferrer"
+      <a href="https://www.linkedin.com/in/vzheng1" target="_blank" rel="noopener noreferrer"
   className="linkedin social">
   <FontAwesomeIcon icon={faLinkedin} size = "4x" />
 </a>

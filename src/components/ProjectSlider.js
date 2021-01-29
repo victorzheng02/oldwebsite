@@ -49,7 +49,30 @@ class ProjectSlider extends React.Component {
                     </div>
                     <div>
                     <HackathonFormat 
-            HackathonName = "HacktheNorth"
+            HackathonName = "Hack the North 2020++"
+            ProjectName = "ohmi"
+            linktodev = "https://devpost.com/software/ohmi"
+            linktogit = "https://github.com/SmilestheSad/ohmi"
+            hackathontext = "Created a web app using React and Firebase that allows you to synchronously send your friends 
+            favours in real time. Favours are stored in firebase and can be accessed after you login."
+                />
+                        
+                    </div>
+                    <div>
+                    <HackathonFormat 
+            HackathonName = "QHacks"
+            ProjectName = "BadGIF"
+            linktodev = "https://devpost.com/software/badgif"
+            linktogit = "https://github.com/SmilestheSad/QHacks2021-BADGIF"
+            hackathontext = "Developed a discord bot that will analyze your messages' sentiments using GCP's
+            NL API, then sends a GIF that conveys the opposite of your emotion. Also, developed MERN Stack
+            application which you can track all your previous messages/moods."
+                />
+                        
+                    </div>
+                    <div>
+                    <HackathonFormat 
+            HackathonName = "Hack the North 2019"
             ProjectName = "AllerVision"
             linktodev = "https://devpost.com/software/allervision"
             linktogit = "https://github.com/SmilestheSad/HTNFrontEnd"
