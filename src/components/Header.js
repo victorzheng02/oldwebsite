@@ -9,11 +9,11 @@ class Header extends Component{
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "1.5vh",
-            width: "35vh",
+            width: "42vh",
             height: "42vh",
         }
     return (
-        <div class = "blurredbox">
+        <div class = "blurredbox" id = "home">
             <Fade top>
         <img style = {avatar} id = "avatar" src={require("../images/victor(me).png")} alt = "me" />
             <Mediabox />

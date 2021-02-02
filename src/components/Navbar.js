@@ -23,7 +23,7 @@ export default function NavBar(props) {
         <AppBar>
         <nav>
             <ul class = "NavBar">
-            <li class = "NavBarItem"><a href="#Home">Home</a></li>
+            <li class = "NavBarItem"><a href="#home">Home</a></li>
             {/* <li class = "NavBarItem"><a href = "#aboutme">About Me</a></li> */}
             <li class = "NavBarItem"><a href="#experience">Experience</a></li>
             <li class = "NavBarItem"><a href="#projects">Projects</a></li>
