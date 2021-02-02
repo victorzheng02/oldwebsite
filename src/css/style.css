@@ -70,9 +70,9 @@ body {
   display: block;
   color: white;
   text-align: center;
-  padding: 0.7vw 1vw 0.7vw 1vw;
+  padding: 0.7vh 1.5vh 1vh 1.5vh;
   text-decoration: none;
-  font-size: 1vw;
+  font-size: 2vh;
   transition: 0.3s;
   display: inline-block;
 }
@@ -108,11 +108,11 @@ body {
   font-family: "Arial";
   text-align: center;
   width: 80%;
-  font-size: calc(3vh);
+  font-size: 3vh;
 }
 @media (max-width: 600px) {
   #summarybox {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   #intro {
     font-size: 5vh;
@@ -296,7 +296,7 @@ img.vert-move {
   margin-right: auto;
   height: calc(4vh);
   width: calc(4vh);
-  margin-top: 3vh;
+  margin-top: 2vh;
 }
 @-webkit-keyframes mover {
   0% {
@@ -316,7 +316,7 @@ img.vert-move {
 }
 
 .icon {
-  font-size: calc(0.2vh+4vw);
+  font-size: 2vh;
   display: inline-block;
 }
 
@@ -332,9 +332,6 @@ img.vert-move {
   }
   .flex-item > h1 {
     font-size: 5.5vw;
-  }
-  .NavBarItem > a {
-    font-size: 3vw;
   }
   #hobbyhead {
     font-size: 8vw;
@@ -369,9 +366,6 @@ img.vert-move {
   .flex-item > h1 {
     font-size: 3.5vw;
   }
-  .NavBarItem > a {
-    font-size: 2vw;
-  }
   .hackathonp {
     font-size: 4vw;
   }
@@ -404,7 +398,11 @@ img.vert-move {
   #footer {
     font-size: 0.7vw;
   }
-
+}
+@media (min-width: 430px) {
+    .NavBarItem > a {
+      font-size: 3vh;
+  }
 }
 #footer {
   color: white;
@@ -439,22 +437,15 @@ img.vert-move {
   .flex-item > h1 {
     font-size: 1.4vw;
   }
-  .NavBarItem > a {
-    font-size: 1.5vw;
-  }
 }
 
-@media (min-width: 1400px) {
-  .NavBarItem > a {
-    font-size: 1vw;
-  }
-}
 
 #exp {
   margin-top: 0px;
   text-align: center;
   padding-top: 2vw;
 }
+
 @media (min-width: 600px) {
   #exp {
     font-size: 4vw;
@@ -465,6 +456,9 @@ img.vert-move {
   #exp {
     font-size: 3vw;
   }
+  #avatar {
+    padding-top: 2vh;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -473,5 +467,6 @@ img.vert-move {
   }
 }
 
-.col {
+#avatar{
+  padding-top: 0.5vh;
 }

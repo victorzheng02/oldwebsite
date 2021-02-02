@@ -8,14 +8,14 @@ class Header extends Component{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
-            marginTop: "calc(10px+2vh)",
+            marginTop: "1.5vh",
             width: "35vh",
             height: "42vh",
         }
     return (
         <div class = "blurredbox">
             <Fade top>
-        <img style = {avatar}src={require("../images/victor(me).png")} alt = "me" />
+        <img style = {avatar} id = "avatar" src={require("../images/victor(me).png")} alt = "me" />
             <Mediabox />
         <h1 id = "intro">Hi! My name is Victor Zheng </h1>
 

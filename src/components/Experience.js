@@ -4,7 +4,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import Reveal from "react-reveal/Reveal";
 let Hobby = {
   marginBottom: "0.5vw",
   marginTop: "0.5vw",
