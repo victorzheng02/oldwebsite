@@ -294,8 +294,8 @@ img.vert-move {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: calc(4vh);
-  width: calc(4vh);
+  height: 4vh;
+  width: 4vh;
   margin-top: 2vh;
 }
 @-webkit-keyframes mover {
