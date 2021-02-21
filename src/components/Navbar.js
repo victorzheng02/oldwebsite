@@ -26,10 +26,10 @@ export default function NavBar(props) {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">
   <Nav className="mr-auto">
-            <Nav.Link id = "NavBarItem"><a href="#home">Home</a></Nav.Link>
-            <Nav.Link id = "NavBarItem"><a href="#experience">Experience</a></Nav.Link>
-            <Nav.Link id = "NavBarItem"><a href="#projects">Projects</a></Nav.Link>
-            <Nav.Link id = "NavBarItem"><a href="/ProgrammingResume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></Nav.Link>
+            <Nav.Link id = "NavBarItem" href="#home">Home</Nav.Link>
+            <Nav.Link id = "NavBarItem" href="#experience">Experience</Nav.Link>
+            <Nav.Link id = "NavBarItem" href="#projects">Projects</Nav.Link>
+            <Nav.Link id = "NavBarItem" href="/ProgrammingResume.pdf" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             </Navbar>

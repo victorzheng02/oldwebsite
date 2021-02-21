@@ -70,20 +70,15 @@ body {
 #NavBarItem {
   float: left;
   height: relative;
-}
-
-#NavBarItem a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 0 1vh 0 1vh;
+  padding: 0.5vh 2vh 0.5vh 2vh;
   text-decoration: none;
-  font-size: 4vh;
+  font-size: 3vh;
   transition: 0.3s;
-  display: inline-block;
 }
 
-#NavBarItem a:hover {
+#NavBarItem:hover {
   transition: all 0.2s ease-out;
   border-bottom: 4px solid #fff;
 }
