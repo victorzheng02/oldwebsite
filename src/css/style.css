@@ -8,6 +8,19 @@ html {
   height: 100%;
   width: 100;
 }
+
+body::-webkit-scrollbar{
+  width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: #1e1e24
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #738ee9
+}
+
 h2.Work {
   color: Black;
   text-align: center;
