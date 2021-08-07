@@ -42,7 +42,7 @@ body {
 }
 
 #intro {
-  font-size: 3rem;
+  font-size: 7vh;
   font-weight: 600;
   text-align: center;
   color: white;
@@ -61,14 +61,11 @@ body {
 }
 
 #NavBar {
-  background: transparent;
-  display: flex;
-  align-items: center;
   padding-left: 2vh;
   position: sticky;
   top: 0;
-  padding-top: 0;
   z-index: 999;
+  background-color: rgba(6, 5, 19, 0.8);
 }
 
 #NavBarItem {
@@ -347,6 +344,7 @@ img.vert-move {
     font-size: 3vh;
   }
 }
+
 #footer {
   color: white;
   text-align: center;

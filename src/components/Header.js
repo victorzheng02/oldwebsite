@@ -23,7 +23,7 @@ class Header extends Component {
           <Typography id="intro">Hi! My name is Victor Zheng</Typography>
 
           <p id="summarybox">
-            I am a first-year attending the Computing and Financial Management
+            I am a second-year attending the Computing and Financial Management
             program at the University of Waterloo. Scroll down to learn a bit
             about me!
           </p>

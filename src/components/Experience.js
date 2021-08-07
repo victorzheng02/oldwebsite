@@ -42,10 +42,10 @@ class Experience extends React.Component {
                   <h1 style={Hobby}> WATonomous</h1>
                   <img style={flexitem} src={WATOPhoto} alt="me" />
                   <p className="flexpara">
-                    Currently the internal sponsorship manager for WATonomous, a
-                    student design team based in the University of Waterloo.
-                    I've helped raise over $25,000 in funding to help build a
-                    self-driving car!
+                    Currently the business director for WATonomous, a student
+                    design team based in the University of Waterloo. I've helped
+                    raise over $30,000 in funding and lead the media,
+                    sponsorship, and design subdivisions.
                   </p>
                 </div>
               </Col>
