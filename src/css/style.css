@@ -1,24 +1,18 @@
-*{
-  font-family: 'PT Sans', sans-serif;
-}
-html {
+html * {
   scroll-behavior: smooth;
-}
-.body {
-  height: 100%;
-  width: 100;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
-body::-webkit-scrollbar{
-  width: 0.3rem;
+body::-webkit-scrollbar {
+  width: 0.5rem;
 }
 
-body::-webkit-scrollbar-track{
-  background: #1e1e24
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
 }
 
-body::-webkit-scrollbar-thumb{
-  background: #738ee9
+body::-webkit-scrollbar-thumb {
+  background: #3852a8;
 }
 
 h2.Work {
@@ -26,12 +20,6 @@ h2.Work {
   text-align: center;
   font-size: 2.5vw;
 }
-/* .hackathonformat{
-    box-shadow: 0px 0px 4px 0 rgba(255, 255, 255, 1);
-    transition: box-shadow 500ms;
-    border-radius: 5%;
-    padding-bottom: 0.5vw;
-} */
 
 body {
   width: 100%;
@@ -40,20 +28,22 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
-  background-image: url(https://media.istockphoto.com/videos/realistic-drifting-smoke-clouds-fog-overlay-video-id1162348949?s=640x640);
-  /* background: -webkit-linear-gradient(white, #38495a); */
-  opacity: 1;
-
-  width: 100%;
-  height: 100%;
-  font-family: 'PT Sans', sans-serif;
+  background-image: radial-gradient(
+    circle,
+    #020c1a,
+    #051320,
+    #061827,
+    #051d2d,
+    #022234
+  );
   letter-spacing: 0.02em;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
 
 #intro {
-  font-size: 7vh;
+  font-size: 3rem;
+  font-weight: 600;
   text-align: center;
   color: white;
   position: relative;
@@ -71,12 +61,13 @@ body {
 }
 
 #NavBar {
-  background: linear-gradient(90deg, rgba(10, 10, 10, 0.87) 0%, rgb(26, 23, 23) 100%);
+  background: transparent;
   display: flex;
   align-items: center;
   padding-left: 2vh;
   position: sticky;
   top: 0;
+  padding-top: 0;
   z-index: 999;
 }
 
@@ -107,11 +98,10 @@ body {
   }
 }
 
-.blurredbox {
-  background-color: rgba(0, 0, 0, 0.6);
+.landing {
   width: 100%;
   height: 100vh;
-  padding-top: 5vw;
+  margin-top: 1vw;
   padding-bottom: 4vw;
 }
 #summarybox {
@@ -169,55 +159,17 @@ li.WorkExperience {
   perspective: 1000px;
 }
 
-.flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front,
-.flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-box-back {
-  background-color: #555;
-  color: white;
-  transform: rotateY(180deg);
-}
-
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 30vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 7%;
   /* position: relative; */
   /* width: 50%; */
 }
 
-.swiper-slide:hover .overlay {
-  bottom: 0;
-  height: 100%;
+.swiper-wrapper {
+  min-height: 30vw;
+  padding-bottom: 3vw;
 }
-/* .hobbyitem:hover {
-    background-color: yellow;
-  } */
 
 .CenteredHover {
   display: block;
@@ -226,29 +178,6 @@ li.WorkExperience {
   width: 50%;
 }
 
-.swiper-slide .overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #008cba;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: 0.5s ease;
-}
-
-.swiper-slide .overlay .hobbytext {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 .social-container {
   padding-top: 1vw;
   text-align: center;
@@ -282,15 +211,14 @@ a.instagram {
   text-align: center;
   margin-right: 2vw;
   margin-left: 2vw;
+  cursor: pointer;
 }
+
 .hover-item:hover {
   transform: translate(0, -10px);
 }
-#projects {
-  background-color: rgba(256, 256, 256, 0.7);
-}
+
 #experience {
-  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   margin-top: 0px;
   padding-top: 0px;
@@ -350,6 +278,7 @@ img.vert-move {
   #hobbyhead {
     font-size: 8vw;
     padding-top: 4vw;
+    color: white;
   }
   .HackathonName {
     font-size: 6vw;
@@ -358,21 +287,12 @@ img.vert-move {
     width: 14%;
     height: 14%;
   }
-  .hackathonp {
-    font-size: 4vw;
-    padding-left: 10vw;
-  }
-  .swiper-container {
-    padding-bottom: 31vw;
-  }
+
   #footer {
     font-size: 2vw;
   }
 }
 
-#swiperbox {
-  padding-top: 100vw;
-}
 @media (min-width: 600px) {
   .flexpara {
     font-size: 3vw;
@@ -382,6 +302,9 @@ img.vert-move {
   }
   .hackathonp {
     font-size: 4vw;
+  }
+  .swiper-wrapper {
+    height: 500px;
   }
 }
 
@@ -398,6 +321,7 @@ img.vert-move {
   #hobbyhead {
     font-size: 4vw;
     padding-top: 2vw;
+    margin-bottom: 0;
   }
   .hover-item {
     width: 25%;
@@ -412,10 +336,15 @@ img.vert-move {
   #footer {
     font-size: 0.7vw;
   }
+
+  .swiper-wrapper {
+    height: 250px;
+  }
 }
+
 @media (min-width: 430px) {
-    #NavBarItem > a {
-      font-size: 3vh;
+  #NavBarItem > a {
+    font-size: 3vh;
   }
 }
 #footer {
@@ -425,7 +354,7 @@ img.vert-move {
   padding-top: 1vw;
 }
 .swiper-container {
-  width: 100%;
+  width: 90%;
   padding-top: 2vw;
 }
 .hackathonp {
@@ -433,8 +362,7 @@ img.vert-move {
   padding: 0;
   position: relative;
   text-align: center;
-  margin-left: 3vw;
-  margin-right: 3vw;
+  padding: 0 3vw;
 }
 #hobbyhead {
   text-align: center;
@@ -443,7 +371,10 @@ img.vert-move {
 .HackathonName {
   text-align: center;
   color: black;
+  margin: 0;
+  padding: 1vw;
 }
+
 @media (min-width: 1000px) {
   .flexpara {
     font-size: 1.2vw;
@@ -452,7 +383,6 @@ img.vert-move {
     font-size: 1.4vw;
   }
 }
-
 
 #exp {
   margin-top: 0px;
@@ -481,6 +411,11 @@ img.vert-move {
   }
 }
 
-#avatar{
+#avatar {
   padding-top: 0.5vh;
+}
+
+.slider-icons {
+  display: flex;
+  justify-content: center;
 }
