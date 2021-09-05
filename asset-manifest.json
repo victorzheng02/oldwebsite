@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01bab708.chunk.css",
+    "main.js": "/static/js/main.b9890593.chunk.js",
+    "main.js.map": "/static/js/main.b9890593.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e1f064b6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e1f064b6.js.map",
+    "static/css/2.43761d86.chunk.css": "/static/css/2.43761d86.chunk.css",
+    "static/js/2.80a2b57f.chunk.js": "/static/js/2.80a2b57f.chunk.js",
+    "static/js/2.80a2b57f.chunk.js.map": "/static/js/2.80a2b57f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.43761d86.chunk.css.map": "/static/css/2.43761d86.chunk.css.map",
+    "static/css/main.01bab708.chunk.css.map": "/static/css/main.01bab708.chunk.css.map",
+    "static/js/2.80a2b57f.chunk.js.LICENSE.txt": "/static/js/2.80a2b57f.chunk.js.LICENSE.txt",
+    "static/media/WATOPhoto.62f03b4c.jpeg": "/static/media/WATOPhoto.62f03b4c.jpeg",
+    "static/media/badminton.725afdb4.jpg": "/static/media/badminton.725afdb4.jpg",
+    "static/media/deca.8c6c021e.jpg": "/static/media/deca.8c6c021e.jpg",
+    "static/media/medlife.7be7606f.jpg": "/static/media/medlife.7be7606f.jpg",
+    "static/media/pictureofme.0cb3fe37.jpg": "/static/media/pictureofme.0cb3fe37.jpg",
+    "static/media/profile.a315fd57.png": "/static/media/profile.a315fd57.png",
+    "static/media/robotics.badfc91e.jpg": "/static/media/robotics.badfc91e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1f064b6.js",
+    "static/css/2.43761d86.chunk.css",
+    "static/js/2.80a2b57f.chunk.js",
+    "static/css/main.01bab708.chunk.css",
+    "static/js/main.b9890593.chunk.js"
+  ]
+}
