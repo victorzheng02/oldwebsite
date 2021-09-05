@@ -1,11 +1,12 @@
-import React from "react";
+import React, {useEffect, ReactDOM} from "react";
 import Header from "./Header";
 import NavBar from "./Navbar";
 import Experience from "./Experience";
 import ProjectSlider from "./ProjectSlider";
 import Footer from "./Footer";
-class App extends React.Component {
-  render() {
+
+export const App = ({hideLoad}) => {
+  useEffect(hideLoad, [])
     return (
       <div>
         <div id="homewrapper">
@@ -25,7 +26,5 @@ class App extends React.Component {
         </div>
       </div>
     );
-  }
 }
 
-export default App;

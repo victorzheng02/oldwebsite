@@ -31,7 +31,7 @@ class Experience extends React.Component {
     return (
       <div id="experience">
         <Fade left>
-          <h1 id="exp"> Experience</h1>
+          <h1 id="exp"> Extracurriculars</h1>
         </Fade>
         <Zoom>
           <Container fluid>
@@ -42,10 +42,9 @@ class Experience extends React.Component {
                   <h1 style={Hobby}> WATonomous</h1>
                   <img style={flexitem} src={WATOPhoto} alt="me" />
                   <p className="flexpara">
-                    Currently the business director for WATonomous, a student
-                    design team based in the University of Waterloo. I've helped
-                    raise over $30,000 in funding and lead the media,
-                    sponsorship, and design subdivisions.
+                    Currently the team captain for WATonomous, a student
+                    design team based in the University of Waterloo. I manage the team of over 50 students and I've helped
+                    raise over $30,000 in funding, coordinate partnerships with large tech companies, and more.
                   </p>
                 </div>
               </Col>
