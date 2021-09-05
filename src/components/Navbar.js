@@ -1,5 +1,4 @@
 import React from "react";
-import AppBar from "@material-ui/core/AppBar";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Slide from "@material-ui/core/Slide";
 import Navbar from "react-bootstrap/Navbar";
@@ -26,7 +25,7 @@ export default function NavBar(props) {
                 Home
               </Nav.Link>
               <Nav.Link id="NavBarItem" href="#experience">
-                Experience
+                Extracurriculars
               </Nav.Link>
               <Nav.Link id="NavBarItem" href="#projects">
                 Projects

@@ -6,7 +6,7 @@ class Footer extends React.Component {
       <h3 id="footer">
         Created by Victor Zheng
         <br />
-        Last updated Aug 2021
+        Last updated September 2021
       </h3>
     );
   }

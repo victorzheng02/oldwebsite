@@ -1,4 +1,4 @@
-import React, {useEffect, ReactDOM} from "react";
+import React, {useEffect} from "react";
 import Header from "./Header";
 import NavBar from "./Navbar";
 import Experience from "./Experience";
