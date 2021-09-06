@@ -15,6 +15,7 @@ class Header extends Component {
       width: "42vh",
       height: "42vh",
     };
+    
     return (
       <div className="landing" id="home">
         <Fade top>

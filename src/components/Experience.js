@@ -10,19 +10,20 @@ import medlifePhoto from "../images/medlife.jpg";
 import badmintonPhoto from "../images/badminton.jpg";
 import roboticsPhoto from "../images/robotics.jpg";
 import decaPhoto from "../images/deca.jpg";
-let Hobby = {
+
+const Hobby = {
   marginBottom: "0.5vw",
   marginTop: "0.5vw",
   paddingTop: "0.5vw",
   minHeight: "30px",
 };
-let flexitem = {
+const flexitem = {
   borderRadius: "10%",
   width: "90%",
   height: "100%",
 };
 
-let RowStyle = {
+const RowStyle = {
   padding: "0vw 15vw 0vw 15vw",
 };
 
@@ -42,9 +43,11 @@ class Experience extends React.Component {
                   <h1 style={Hobby}> WATonomous</h1>
                   <img style={flexitem} src={WATOPhoto} alt="me" />
                   <p className="flexpara">
-                    Currently the team captain for WATonomous, a student
-                    design team based in the University of Waterloo. I manage the team of over 50 students and I've helped
-                    raise over $30,000 in funding, coordinate partnerships with large tech companies, and more.
+                    Currently the team captain for WATonomous, a student design
+                    team based in the University of Waterloo. I manage the team
+                    of over 50 students and I've helped raise over $30,000 in
+                    funding, coordinate partnerships with large tech companies,
+                    and more.
                   </p>
                 </div>
               </Col>
