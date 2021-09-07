@@ -32,7 +32,7 @@ export default function NavBar(props) {
               </Nav.Link>
               <Nav.Link
                 id="NavBarItem"
-                href="/ProgrammingResume.pdf"
+                href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
