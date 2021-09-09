@@ -1,12 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./Header";
 import NavBar from "./Navbar";
 import Experience from "./Experience";
 import ProjectSlider from "./ProjectSlider";
 import Footer from "./Footer";
 
-export const App = ({ hideLoad }) => {
-  useEffect(hideLoad, []);
+export const App = () => {
   return (
     <div>
       <div id="homewrapper">
