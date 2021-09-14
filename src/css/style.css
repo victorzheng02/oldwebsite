@@ -275,6 +275,9 @@ img.vert-move {
   .flex-item > h1 {
     font-size: 5.5vw;
   }
+  .flex-item > h4 {
+    font-size: 5vw;
+  }
   #hobbyhead {
     font-size: 8vw;
     padding-top: 4vw;
@@ -300,6 +303,9 @@ img.vert-move {
   .flex-item > h1 {
     font-size: 3.5vw;
   }
+  .flex-item > h4 {
+    font-size: 3vw;
+  }
   .hackathonp {
     font-size: 4vw;
   }
@@ -314,6 +320,9 @@ img.vert-move {
   }
   .flex-item > h1 {
     font-size: 2.75vw;
+  }
+  .flex-item > h4 {
+    font-size: 2.25vw;
   }
   .HackathonName {
     font-size: 3vw;
@@ -383,6 +392,9 @@ img.vert-move {
   .flex-item > h1 {
     font-size: 1.4vw;
   }
+  .flex-item > h4 {
+    font-size: 1.2vw;
+  }
 }
 
 #exp {
@@ -419,4 +431,17 @@ img.vert-move {
 .slider-icons {
   display: flex;
   justify-content: center;
+}
+
+.flex-item > h1 {
+  margin-bottom: 0.5vw;
+  margin-top: 0.5vw;
+  padding-top: 0.5vw;
+  min-height: 30px;
+}
+
+.flex-item > img {
+  border-radius: 10%;
+  width: 90%;
+  height: 100%;
 }
