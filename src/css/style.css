@@ -1,5 +1,6 @@
 html * {
   font-family: Arial, Helvetica, sans-serif !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 html {
@@ -33,11 +34,11 @@ body {
   background-position: top;
   background-image: radial-gradient(
     circle,
-    #020c1a,
-    #051320,
-    #061827,
-    #051d2d,
-    #022234
+    rgb(39, 83, 144),
+    #144572,
+    #0e3a5d,
+    #062336,
+    #000000
   );
   letter-spacing: 0.02em;
   font-weight: 400;
@@ -112,8 +113,9 @@ body {
   padding-top: 1vw;
   text-align: center;
   width: 80%;
-  font-size: 3vh;
+  font-size: 4vh;
 }
+
 @media (max-width: 600px) {
   #summarybox {
     font-size: 5vw;
@@ -161,9 +163,7 @@ li.WorkExperience {
 
 .swiper-slide {
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 7%;
-  /* position: relative; */
-  /* width: 50%; */
+  border-radius: 3%;
 }
 
 .swiper-wrapper {
