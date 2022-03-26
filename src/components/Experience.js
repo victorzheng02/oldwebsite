@@ -12,17 +12,6 @@ import badmintonPhoto from "../images/badminton.jpg";
 import roboticsPhoto from "../images/robotics.jpg";
 import decaPhoto from "../images/deca.jpg";
 
-const Hobby = {
-  marginBottom: "0.5vw",
-  marginTop: "0.5vw",
-  paddingTop: "0.5vw",
-  minHeight: "30px",
-};
-const flexitem = {
-  borderRadius: "10%",
-  width: "90%",
-  height: "100%",
-};
 
 const RowStyle = {
   padding: "0vw 15vw 0vw 15vw",
